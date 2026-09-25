@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Bowl Outer -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M20,60 C20,88 38,98 60,98 C82,98 100,88 100,60 Z"/>
+    <!-- Bowl Rim Inner -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M20,60 C20,64 38,66 60,66 C82,66 100,64 100,60 C100,56 82,54 60,54 C38,54 20,56 20,60 Z"/>
+    <!-- Broth (Nước dùng trong vắt) -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M22,60 C22,63 38,64 60,64 C82,64 98,63 98,60 C98,57 82,56 60,56 C38,56 22,57 22,60 Z"/>
+    <!-- Pho Noodles (Bánh phở trắng) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,55 Q45,48 60,55 T90,55"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,58 Q50,52 65,58 T85,58"/>
+    <!-- Beef Slices (Thịt bò tái hồng) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M40,48 C36,44 48,40 56,46 C60,50 44,52 40,48 Z"/>
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M62,46 C58,42 70,38 78,44 C82,48 66,50 62,46 Z"/>
+    <!-- Green Scallions (Hành lá xanh) -->
+    <path android:fillColor="#2E7D32" android:pathData="M48,50 L52,48 L50,52 Z"/>
+    <path android:fillColor="#2E7D32" android:pathData="M60,52 L64,50 L62,54 Z"/>
+    <path android:fillColor="#2E7D32" android:pathData="M70,48 L74,46 L72,50 Z"/>
+</vector>

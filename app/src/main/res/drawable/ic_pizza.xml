@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFE6E6"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Pizza Crust (Whole circle crust slightly angled or slice?) Let's draw a complete gorgeous Pizza! -->
+    <path
+        android:fillColor="#E28743"
+        android:pathData="M60,20 C82.09,20 100,37.91 100,60 C100,82.09 82.09,100 60,100 C37.91,100 20,82.09 20,60 C20,37.91 37.91,20 60,20 Z"/>
+    <!-- Tomato Sauce -->
+    <path
+        android:fillColor="#D73211"
+        android:pathData="M60,24 C79.88,24 96,40.12 96,60 C96,79.88 79.88,96 60,96 C40.12,96 24,79.88 24,60 C24,40.12 40.12,24 60,24 Z"/>
+    <!-- Cheese Layer -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M60,27 C78.22,27 93,41.78 93,60 C93,78.22 78.22,93 60,93 C41.78,93 27,78.22 27,60 C27,41.78 41.78,27 60,27 Z"/>
+    <!-- Pepperoni slice 1 -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M45,45 C49.42,45 53,41.42 53,37 C53,32.58 49.42,29 45,29 C40.58,29 37,32.58 37,37 C37,41.42 40.58,45 45,45 Z"/>
+    <!-- Pepperoni slice 2 -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M75,48 C79.42,48 83,44.42 83,40 C83,35.58 79.42,32 75,32 C70.58,32 67,35.58 67,40 C67,44.42 70.58,48 75,48 Z"/>
+    <!-- Pepperoni slice 3 -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M40,75 C44.42,75 48,71.42 48,67 C48,62.58 44.42,59 40,59 C35.58,59 32,62.58 32,67 C32,71.42 35.58,75 40,75 Z"/>
+    <!-- Pepperoni slice 4 -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M70,78 C74.42,78 78,74.42 78,70 C78,65.58 74.42,62 70,62 C65.58,62 62,65.58 62,70 C62,74.42 65.58,78 70,78 Z"/>
+    <!-- Green Peppers (Bell pepper slices) -->
+    <path android:fillColor="#2E7D32" android:pathData="M55,50 L62,47 L60,54 Z"/>
+    <path android:fillColor="#2E7D32" android:pathData="M45,58 L48,64 L53,60 Z"/>
+    <path android:fillColor="#2E7D32" android:pathData="M65,58 L72,61 L68,66 Z"/>
+    <!-- Mushroom slices -->
+    <path android:fillColor="#8D6E63" android:pathData="M52,70 C54,70 55,68 55,67 C55,66 54,65 52,65 C50,65 49,66 49,67 C49,68 50,70 52,70 Z"/>
+    <path android:fillColor="#8D6E63" android:pathData="M58,38 C60,38 61,36 61,35 C61,34 60,33 58,33 C56,33 55,34 55,35 C55,36 56,38 58,38 Z"/>
+</vector>

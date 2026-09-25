@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle for a premium card feel -->
+    <path
+        android:fillColor="#FFF5E6"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Top Bun -->
+    <path
+        android:fillColor="#E28743"
+        android:pathData="M60,30 C40,30 28,42 28,54 L92,54 C92,42 80,30 60,30 Z"/>
+    <!-- Sesame seeds -->
+    <path android:fillColor="#FFFFFF" android:pathData="M48,38 L50,42 L48,40 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M60,34 L62,38 L60,36 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M72,38 L74,42 L72,40 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M54,46 L56,50 L54,48 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M66,46 L68,50 L66,48 Z"/>
+    <!-- Lettuce (Green wave) -->
+    <path
+        android:fillColor="#76BA1B"
+        android:pathData="M25,54 Q31,50 37,54 T49,54 T61,54 T73,54 T85,54 T95,54 L95,59 Q85,55 73,55 T49,55 T25,59 Z"/>
+    <!-- Tomato (Red slice) -->
+    <path
+        android:fillColor="#E31E24"
+        android:pathData="M28,59 L92,59 C92,59 92,63 85,63 L35,63 C28,63 28,59 28,59 Z"/>
+    <!-- Cheese (Yellow slice) -->
+    <path
+        android:fillColor="#FFCC00"
+        android:pathData="M30,63 L90,63 L80,70 L60,66 L40,70 Z"/>
+    <!-- Beef Patty -->
+    <path
+        android:fillColor="#5C3A21"
+        android:pathData="M28,68 Q28,66 30,66 L90,66 Q92,66 92,68 L92,76 Q92,78 90,78 L30,78 Q28,78 28,76 Z"/>
+    <!-- Bottom Bun -->
+    <path
+        android:fillColor="#E28743"
+        android:pathData="M30,78 L90,78 C90,88 80,92 60,92 C40,92 30,88 30,78 Z"/>
+</vector>

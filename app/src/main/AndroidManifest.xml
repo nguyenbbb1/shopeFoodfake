@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopeFoodfake">
+
+        <!-- Màn hình chính -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ShopeFoodfake">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Màn hình tìm kiếm -->
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <!-- Màn hình chi tiết -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake" />
+
+        <!-- Màn hình Giỏ hàng -->
+        <activity
+            android:name=".CartActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake" />
+
+        <!-- Màn hình Thanh toán -->
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Màn hình Vòng quay may mắn -->
+        <activity
+            android:name=".LuckyWheelActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake" />
+
+        <!-- Màn hình Ví tiền cá nhân -->
+        <activity
+            android:name=".WalletActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ShopeFoodfake"
+            android:windowSoftInputMode="adjustResize" />
+
+    </application>
+
+</manifest>

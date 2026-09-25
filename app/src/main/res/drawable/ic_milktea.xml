@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#F3E5F5"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Cup Body (Chất liệu nhựa trong suốt, bên trong màu trà sữa) -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M35,35 L42,95 C43,100 48,102 60,102 C72,102 77,100 78,95 L85,35 Z"/>
+    <!-- Milk Tea color layer (Màu nâu nhạt của trà sữa) -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M37,45 L42,95 C43,99 48,100 60,100 C72,100 77,99 78,95 L83,45 Z"/>
+    <!-- Ice Cubes (Đá viên) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M45,50 L55,50 L55,60 L45,60 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M62,55 L72,55 L72,65 L62,65 Z"/>
+    <!-- Tapioca Pearls (Trân châu đen tròn tròn ở đáy ly) -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M44,90 C46,90 48,88 48,86 C48,84 46,82 44,82 C42,82 40,84 40,86 C40,88 42,90 44,90 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M52,94 C54,94 56,92 56,90 C56,88 54,86 52,86 C50,86 48,88 48,90 C48,92 50,94 52,94 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M60,91 C62,91 64,89 64,87 C64,85 62,83 60,83 C58,83 56,85 56,87 C56,89 58,91 60,91 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M68,93 C70,93 72,91 72,89 C72,87 70,85 68,85 C66,85 64,87 64,89 C64,91 66,93 68,93 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M74,88 C76,88 78,86 78,84 C78,82 76,80 74,80 C72,80 70,82 70,84 C70,86 72,88 74,88 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M48,82 C50,82 52,80 52,78 C52,76 50,74 48,74 C46,74 44,76 44,78 C44,80 46,82 48,82 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M58,83 C60,83 62,81 62,79 C62,77 60,75 58,75 C56,75 54,77 54,79 C54,81 56,83 58,83 Z"/>
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M66,81 C68,81 70,79 70,77 C70,75 68,73 66,73 C64,73 62,75 62,77 C62,79 64,81 66,81 Z"/>
+    <!-- Cup Lid (Nắp ly phẳng) -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M32,32 L88,32 C90,32 90,35 88,35 L32,35 C30,35 30,32 32,32 Z"/>
+    <!-- Straw (Ống hút to màu đỏ đâm xéo) -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M55,20 L62,20 L50,105 L43,105 Z"/>
+</vector>

@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Bone 1 -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M35,75 C29,81 25,83 23,80 C21,77 23,73 29,67 L45,55 L55,65 Z"/>
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M23,80 C20,80 18,77 20,74 C22,71 25,71 25,74 C25,77 23,80 23,80 Z"/>
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M29,85 C26,85 24,82 26,79 C28,76 31,76 31,79 C31,82 29,85 29,85 Z"/>
+    <!-- Meat (Thịt Gà Rán vàng ruộm) -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M45,50 C35,40 55,20 75,30 C95,40 100,60 90,75 C80,90 65,85 55,75 Z"/>
+    <!-- Crispy spots/flakes -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M45,50 C40,45 52,30 65,35 C78,40 85,50 80,65 C75,80 60,80 55,70 Z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M65,42 Q68,45 70,42"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M78,55 Q81,58 83,55"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M58,62 Q61,65 63,62"/>
+</vector>

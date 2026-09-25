@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M60,10 C87.61,10 110,32.39 110,60 C110,87.61 87.61,110 60,110 C32.39,110 10,87.61 10,60 C10,32.39 32.39,10 60,10 Z"/>
+    <!-- Bowl Outer -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M25,60 C25,85 40,95 60,95 C80,95 95,85 95,60 Z"/>
+    <!-- Bowl Inner/Rim -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M25,60 C25,63 40,65 60,65 C80,65 95,63 95,60 C95,57 80,55 60,55 C40,55 25,57 25,60 Z"/>
+    <!-- Noodles inside/overlapping the bowl -->
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M35,53 Q45,45 55,53 T75,53 T90,51"/>
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M30,57 Q45,49 60,57 T90,57"/>
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M38,50 Q48,42 58,50 T78,50 T88,48"/>
+    <!-- Egg (Boiled cut half) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,45 C50,38 58,34 64,40 C70,46 66,54 60,54 C54,54 50,51 50,45 Z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M56,45 C56,42 60,40 62,43 C64,46 62,50 59,50 C56,50 56,48 56,45 Z"/>
+    <!-- Shrimp (Tôm) -->
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M40,36 C35,40 34,48 42,48 C44,48 44,44 41,43 C38,42 38,38 40,36 Z"/>
+    <!-- Chopsticks (Đũa) -->
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M80,20 L50,60"/>
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M85,20 L55,60"/>
+</vector>

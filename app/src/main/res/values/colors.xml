@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#EE4D2D</color> <!-- ShopeeFood Orange-Red -->
+    <color name="primary_dark">#D73211</color>
+    <color name="primary_light">#FFEBE7</color>
+    <color name="accent">#FF7337</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#222222</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="price_color">#EE4D2D</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#E0E0E0</color>
+</resources>
